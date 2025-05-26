@@ -1,0 +1,40 @@
+/* src/assets/style.css */
+
+/* ------ NAVBAR ------ */
+nav {
+  background-color: #0d6efd;        /* biru Bootstrap - gampang diganti */
+  padding: 0.75rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* ------ LINK DI NAVBAR ------ */
+nav a {
+  color: #ffffff;                  /* teks putih */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+/* efek hover / focus */
+nav a:hover,
+nav a:focus {
+  color: #cfe2ff;                  /* biru muda */
+  opacity: 0.9;
+}
+
+/* saat link aktif (route yang sedang dibuka) */
+.router-link-active {
+  color: #ffd500;                  /* kuning agar kontras */
+  font-weight: 600;
+}
+
+/* ------ RESPONSIF ------ */
+@media (max-width: 600px) {
+  nav {
+    flex-wrap: wrap;
+  }
+}
