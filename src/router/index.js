@@ -1,4 +1,3 @@
-// src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '../views/Home.vue'
@@ -12,3 +11,36 @@ import Admin from '../views/Admin.vue'
 
 import { useAuthStore } from '../stores/authStore'
 import { storeToRefs } from 'pinia'
+
+const routes = [
+  { path: '/', component: Home },
+  { path: '/produk', component: ProdukList },
+  { path: '/produk/:id', component: ProdukDetail },
+  { path: '/keranjang', component: Keranjang },
+  { path: '/checkout', component: Checkout },
+  { path: '/login', component: Login },
+  { path: '/register', component: Register },
+  { path: '/admin', component: Admin }
+]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+})
+
+// Middleware untuk route yang butuh login
+router.beforeEach((to, from, next) => {
+  const authStore = useAuthStore()
+  const { isLoggedIn } = storeToRefs(authStore)
+
+  const protectedRoutes = ['/produk', '/keranjang', '/checkout', '/admin']
+
+  if (protectedRoutes.includes(to.path) && !isLoggedIn.value) {
+    next('/login')
+  } else {
+    next()
+  }
+})
+
+export default router
+
