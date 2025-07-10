@@ -1,0 +1,64 @@
+{
+  "produk": [
+    {
+      "id": 1,
+      "nama": "Samsung Galaxy A55",
+      "harga": 5299000,
+      "gambar": "https://tse4.mm.bing.net/th/id/OIP.n-wxKhMsxCEvuyILnHZ0gwHaE7?pid=Api&P=0&h=220"
+    },
+    {
+      "id": 2,
+      "nama": "Samsung Galaxy S24 Ultra",
+      "harga": 18999000,
+      "gambar": "https://tse4.mm.bing.net/th/id/OIP.9bVOYheIb053-9sYhX5rNQHaHa?pid=Api&P=0&h=220"
+    },
+    {
+      "id": 3,
+      "nama": "Samsung Galaxy Z Fold 5",
+      "harga": 23999000,
+      "gambar": "https://tse2.mm.bing.net/th/id/OIP.8feF2OGgeRWgaowH0QmC-QHaHa?pid=Api&P=0&h=220"
+    },
+    {
+      "id": 3,
+      "nama": "Samsung Galaxy Z Fold 6",
+      "harga": 25999000,
+      "gambar": "https://tse2.mm.bing.net/th/id/OIP.WK5xraPeiQNLLWD7thDePgHaHa?pid=Api&P=0&h=220"
+    },
+    {
+      "id": 4,
+      "nama": "Samsung Galaxy A35",
+      "harga": 4999000,
+      "gambar": "https://tse2.mm.bing.net/th/id/OIP.nihhYks_xD608imhgOaKAwHaHa?pid=Api&P=0&h=220"
+    },
+    {
+      "id": 5,
+      "nama": "Samsung Galaxy M54",
+      "harga": 3499000,
+      "gambar": "https://tse1.mm.bing.net/th/id/OIP.w6r-VbuC68SJzarapQcvZQHaHa?pid=Api&P=0&h=220"
+    },
+    {
+      "id": 6,
+      "nama": "Samsung Galaxy S25 Ultra",
+      "harga": 28999000,
+      "gambar": "https://tse3.mm.bing.net/th/id/OIP.bBZYgdT0639qLgMZQ58dswHaHd?pid=Api&P=0&h=220"
+    },
+    {
+      "id": 7,
+      "nama": "Samsung Galaxy A15",
+      "harga": 2499000,
+      "gambar": "https://tse4.mm.bing.net/th/id/OIP.89MLQTvlKIr81kEGFOuxMQHaHa?pid=Api&P=0&h=220"
+    }
+  ],
+  "users": [
+    {
+      "id": "652d",
+      "username": "rengga",
+      "password": "12345"
+    },
+    {
+      "id": "8a91",
+      "username": "muhammad dwika",
+      "password": "00000"
+    }
+  ]
+}

@@ -1,8 +1,9 @@
-<!-- src/App.vue -->
 <template>
-  <Navbar />
-  <div class="content">
-    <router-view />
+  <div>
+    <Navbar />
+    <div class="main-content">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -10,9 +11,3 @@
 import Navbar from './components/Navbar.vue'
 </script>
 
-<style>
-.content {
-  margin-left: 200px; /* Sesuaikan dengan lebar sidebar */
-  padding: 1rem;
-}
-</style>
