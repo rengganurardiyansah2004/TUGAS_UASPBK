@@ -13,7 +13,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { useAuthStore } from '../Stores/authStore'
+import { useAuthStore } from '../stores/authStore'
 
 const username = ref('')
 const password = ref('')

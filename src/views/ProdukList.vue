@@ -17,8 +17,8 @@
 
 <script setup>
 import { onMounted } from 'vue'
-import { useProdukStore } from '../Stores/produkStore'
-import { useKeranjangStore } from '../Stores/keranjangStore'
+import { useProdukStore } from '../stores/produkStore'
+import { useKeranjangStore } from '../stores/keranjangStore'
 
 const produkStore = useProdukStore()
 const keranjangStore = useKeranjangStore()

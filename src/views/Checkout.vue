@@ -56,7 +56,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import { useKeranjangStore } from '../Stores/keranjangStore'
+import { useKeranjangStore } from '../stores/keranjangStore'
 import { useRouter } from 'vue-router'
 
 const keranjangStore = useKeranjangStore()
