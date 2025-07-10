@@ -46,7 +46,7 @@ import {
   UserPlusIcon
 } from 'lucide-vue-next'
 
-import { useAuthStore } from '../stores/authStore'
+import { useAuthStore } from '../stores/authstore'
 import { useRouter } from 'vue-router'
 
 const authStore = useAuthStore()

@@ -10,7 +10,7 @@ import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 import Admin from '../views/Admin.vue'
 
-import { useAuthStore } from '../stores/authStore'
+import { useAuthStore } from '../stores/authstore'
 import { storeToRefs } from 'pinia'
 
 const routes = [
